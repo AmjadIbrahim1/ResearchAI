@@ -61,7 +61,7 @@ Built for students, researchers, and professionals who need a solid first draft 
 | Language | [TypeScript 5.8](https://www.typescriptlang.org) (strict) |
 | Styling | [Tailwind CSS 4](https://tailwindcss.com) + [shadcn/ui](https://ui.shadcn.com) + Radix UI |
 | AI | [Vercel AI SDK 4](https://sdk.vercel.ai) + [`@ai-sdk/google`](https://www.npmjs.com/package/@ai-sdk/google) |
-| Models | `gemini-2.0-flash` (outline) · `gemini-2.0-flash-lite` (content) |
+| Models | `gemini-flash-latest` (outline, search-grounded) · `gemini-flash-lite-latest` (content) |
 | Validation | [Zod](https://zod.dev) schemas for structured generation |
 | Animation | [Motion](https://motion.dev) + [Lenis](https://lenis.darkroom.engineering) |
 | Export | [`docx`](https://www.npmjs.com/package/docx) + [`jspdf`](https://www.npmjs.com/package/jspdf) + [`file-saver`](https://www.npmjs.com/package/file-saver) |

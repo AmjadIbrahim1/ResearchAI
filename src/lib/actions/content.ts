@@ -11,7 +11,7 @@ export async function generateAIContent(
 ): Promise<string> {
   try {
     const { text } = await generateText({
-      model: google("gemini-2.0-flash-lite", {
+      model: google("gemini-flash-lite-latest", {
         // useSearchGrounding: true,
       }),
       system:

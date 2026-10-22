@@ -15,6 +15,14 @@ const aiOutlineSchema = z.object({
   sections: z.array(aiSectionSchema),
 });
 
+/**
+ * Models often number their own titles ("1. Introduction", "2.1 Background").
+ * The UI adds numbering itself, so strip it to avoid duplicated labels.
+ */
+function cleanTitle(title: string): string {
+  return title.replace(/^\s*\d+(?:\.\d+)*[.)]?\s+/, "").trim();
+}
+
 export async function generateAIOutline(
   topic: string,
   academicLevel: string,
@@ -22,7 +30,7 @@ export async function generateAIOutline(
 ): Promise<DocumentOutline> {
   try {
     const { object } = await generateObject({
-      model: google("gemini-2.0-flash", {
+      model: google("gemini-flash-latest", {
         useSearchGrounding: true,
       }),
       system:
@@ -46,11 +54,11 @@ export async function generateAIOutline(
 
     const sections = object.sections.map((section) => ({
       id: nanoid(5),
-      title: section.title,
+      title: cleanTitle(section.title),
       isSelected: true,
       subtopics: section.subtopics.map((subtopicTitle) => ({
         id: nanoid(5),
-        title: subtopicTitle,
+        title: cleanTitle(subtopicTitle),
         isSelected: true,
         content: "",
       })),
