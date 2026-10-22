@@ -47,7 +47,7 @@ export const exportDocument = (
 
       // Add author info
       doc.setFontSize(12);
-      const authorText = "Prepared by: Student Name";
+      const authorText = "Prepared by: Amjad";
       const authorWidth =
         (doc.getStringUnitWidth(authorText) * 12) / doc.internal.scaleFactor;
       const authorX = (doc.internal.pageSize.width - authorWidth) / 2;
@@ -272,7 +272,7 @@ export const exportDocument = (
                 spacing: { after: 200 },
                 children: [
                   new TextRun({
-                    text: "Prepared by: Student Name",
+                    text: "Prepared by: Amjad",
                     size: 24, // 12pt
                   }),
                 ],

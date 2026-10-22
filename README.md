@@ -207,7 +207,7 @@ Contributions are welcome. Fork the repo, create a feature branch (`git checkout
 
 Released under the **MIT License**.
 
-This project is based on the open-source [ResearchAI](https://github.com/adityadomle/ResearchAI) template by **[Aditya Domle](https://github.com/adityadomle)**, and is extended and maintained by **[Amjad Ibrahim](https://github.com/AmjadIbrahim1)**.
+Maintained by **[Amjad Ibrahim](https://github.com/AmjadIbrahim1)**. This project started from the open-source [ResearchAI](https://github.com/adityadomle/ResearchAI) template.
 
 ---
 

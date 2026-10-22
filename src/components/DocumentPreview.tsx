@@ -55,7 +55,7 @@ const DocumentPreview: React.FC<DocumentPreviewProps> = ({
                   </p>
                 )}
                 <p className="text-muted-foreground mt-12">
-                  Prepared by: Student Name
+                  Prepared by: Amjad
                 </p>
                 <p className="text-muted-foreground mt-2">
                   Institution: University Name
