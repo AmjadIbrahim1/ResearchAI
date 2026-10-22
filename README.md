@@ -11,6 +11,9 @@
 [![Gemini](https://img.shields.io/badge/Google_Gemini-2.0_Flash-8E75B2?logo=google&logoColor=white)](https://ai.google.dev)
 [![Vercel AI SDK](https://img.shields.io/badge/Vercel_AI_SDK-4-000000?logo=vercel&logoColor=white)](https://sdk.vercel.ai)
 [![License: MIT](https://img.shields.io/badge/License-MIT-3DA639.svg)](#-license)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-online-000000?logo=vercel&logoColor=white)](https://researchai-steel.vercel.app)
+
+**🔗 Live demo:** [researchai-steel.vercel.app](https://researchai-steel.vercel.app)
 
 [Features](#-features) · [Tech stack](#-tech-stack) · [Getting started](#-getting-started) · [Project structure](#-project-structure) · [Deployment](#-deployment) · [العربية](#-نبذة-بالعربية)
 
